@@ -1,0 +1,290 @@
+.section1 {
+  width: 100%;
+  height: 700px;
+  background-image: url("https://preview.colorlib.com/theme/manup/img/hero.jpg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  text-align: start;
+  &__right {
+    width: 700px;
+    height: 200px;
+
+    padding: 40px;
+    color: white;
+    p {
+      font-size: 16px;
+      color: #f44949;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    h1 {
+      font-size: 60px;
+      color: #ffffff;
+      line-height: 72px;
+      font-weight: 600;
+      margin-top: 24px;
+      margin-bottom: 35px;
+    }
+    button {
+      display: inline-block;
+      font-size: 16px;
+      border: none;
+      font-weight: 600;
+      padding: 12px 40px;
+      color: #ffffff;
+      text-align: center;
+      border-radius: 50px;
+      background-image: -webkit-gradient(
+          linear,
+          left top,
+          right top,
+          from(#ee8425),
+          to(#f9488b)
+        ),
+        -webkit-gradient(linear, left top, right top, from(#ee8425), to(#f9488b));
+      background-image: -o-linear-gradient(left, #ee8425 0%, #f9488b 100%),
+        -o-linear-gradient(left, #ee8425 0%, #f9488b 100%);
+      background-image: linear-gradient(to right, #ee8425 0%, #f9488b 100%),
+        linear-gradient(to right, #ee8425 0%, #f9488b 100%);
+    }
+  }
+}
+
+.section2 {
+  width: 100%;
+  height: 650px;
+
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-around;
+  &__img {
+    width: 40%;
+    height: 650px;
+
+    align-items: center;
+  }
+  &__text {
+    width: 500px;
+    text-align: start;
+    align-items: center;
+    h1 {
+      color: #171822;
+      font-size: 40px;
+      font-weight: 700;
+      margin-bottom: 32px;
+    }
+    p {
+      font-size: 16px;
+      font-family: "Work Sans", sans-serif;
+      color: #6a6b7c;
+      font-weight: 400;
+      line-height: 28px;
+      margin: 0 0 15px 0;
+    }
+    ul li {
+      list-style: none;
+      font-size: 16px;
+      line-height: 30px;
+      color: #6a6b7c;
+    }
+    button {
+      font-size: 16px;
+      color: #171822;
+      font-weight: 600;
+      position: relative;
+      background-color: transparent;
+      border: none;
+      hr {
+        border: 1px solid red;
+      }
+    }
+  }
+}
+
+.section3 {
+  &__text {
+    margin: auto;
+    h2 {
+      font-size: 40px;
+      font-weight: 700;
+      color: #171822;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 18px;
+      color: #6a6b7c;
+      margin-bottom: 0;
+    }
+  }
+
+  &__img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+    .img1 {
+      width: 300px;
+      height: 350px;
+      background-image: url("https://preview.colorlib.com/theme/manup/img/team-member/member-1.jpg.webp");
+    }
+    .img2 {
+      width: 300px;
+      height: 350px;
+      background-image: url("https://preview.colorlib.com/theme/manup/img/team-member/member-2.jpg.webp");
+    }
+    .img3 {
+      width: 300px;
+      height: 350px;
+      background-image: url("https://preview.colorlib.com/theme/manup/img/team-member/member-3.jpg.webp");
+    }
+    .img4 {
+      width: 300px;
+      height: 350px;
+
+      background-image: url("https://preview.colorlib.com/theme/manup/img/team-member/member-4.jpg.webp");
+    }
+    .img5 {
+      width: 300px;
+      height: 350px;
+      background-image: url("https://preview.colorlib.com/theme/manup/img/team-member/member-9.jpg.webp");
+    }
+    .img6 {
+      width: 300px;
+      height: 350px;
+
+      background-image: url("https://preview.colorlib.com/theme/manup/img/team-member/member-10.jpg.webp");
+    }
+    .img7 {
+      width: 300px;
+      height: 350px;
+
+      background-image: url("https://preview.colorlib.com/theme/manup/img/team-member/member-8.jpg.webp");
+    }
+    .img8 {
+      width: 300px;
+      height: 350px;
+
+      background-image: url("https://preview.colorlib.com/theme/manup/img/team-member/member-6.jpg.webp");
+    }
+    .img9{
+      width: 300px;
+      height: 350px;
+      background-image: url('https://preview.colorlib.com/theme/manup/img/team-member/member-7.jpg.webp');
+    }
+    .img10{
+      width: 300px;
+      height: 350px;
+      background-image: url('https://preview.colorlib.com/theme/manup/img/team-member/member-5.jpg.webp');
+    }
+  }
+}
+
+
+.section4{
+  margin-top: auto;
+  h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #171822;
+    margin-bottom: 10px;
+    
+    color: #111111;
+    font-weight: 400;
+    font-family: "Work Sans", sans-serif;
+  }
+p{
+  font-size: 40px;
+    font-weight: 700;
+    color: #171822;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: "Work Sans", sans-serif;
+    color: #6a6b7c;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 0 0 15px 0;
+}
+
+&__card{
+  width: 90%;
+  height: 100px;
+
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  .card1{
+    width: 20%;
+    height: 100px;
+   border-right: 1px solid;
+    background-image: linear-gradient(120deg, #ee8425 0%, #f9488b 100%), linear-gradient(120deg, #ee8425 0%, #f9488b 100%);
+color: white;
+  }
+  .card2{
+    width: 20%;
+    height: 100px;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    border-right: 1px solid;
+
+  }
+  .card3{
+    width: 20%;
+    height: 100px;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    border-right: 1px solid;
+
+  }
+  .card4{
+    width: 20%;
+    height: 100px;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    border-right: 1px solid;
+
+  }
+  .card5{
+    width: 20%;
+    height:100px ;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    border-right: 1px solid;
+
+  }
+}
+}
+
+.section5{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__left{
+    width: 40%;
+    height: 500px;
+   
+    text-align: start;
+    padding: 50px;
+    #p{
+      font-size: 16px;
+      color: #6a6b7c;
+    }
+    #pp{
+      font-size: 16px;
+      color: #6a6b7c;
+      font-family: "Work Sans", sans-serif;
+
+    }
+  }
+  &__right{
+  #frm{
+   width: 500px;
+height: 500px; 
+  }
+
+  }
+}

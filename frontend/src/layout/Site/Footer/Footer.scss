@@ -1,0 +1,28 @@
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(40, 36, 36);
+    justify-content: center;
+    align-items: center;
+    &__img{
+        position: relative;
+        top: 90px;
+    }
+    ul{
+        list-style: none;
+       display: flex;
+       justify-content: center;
+       gap: 30px;
+       position: relative;
+       top: 120px;
+       li{
+        font-size: 20px;
+        color: rgb(105, 117, 121);
+       }
+    }
+    p{
+        position: relative;
+        top: 150px;
+        color: lightslategray;
+    }
+}
